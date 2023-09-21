@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="92.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerCheckers">
+   <children>
+      <ToolBar layoutX="494.0" layoutY="13.0" prefHeight="42.0" prefWidth="94.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+        <items>
+          <Button fx:id="esc" mnemonicParsing="false" prefHeight="30.0" prefWidth="54.0" text="Esc" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+          <Button mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+      <ToolBar layoutX="14.0" layoutY="13.0" prefHeight="42.0" prefWidth="194.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+        <items>
+          <Button fx:id="restart" mnemonicParsing="false" text="Restart" />
+            <Button mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
